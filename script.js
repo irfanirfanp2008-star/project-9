@@ -48,3 +48,34 @@
 
 
 
+// var num = prompt=("enter a number")
+// var count=0
+// for (let i =1 ; i<=num ; i++){
+
+// if(num%i == 0){
+//     count++
+// }
+// }
+
+// if(count=2){
+//     console.log("prime number");
+    
+// }
+
+
+for(let i = 1; i <= 30; i++){
+
+    if(i % 3 == 0 && i % 5 == 0){
+        console.log("Green");
+    }
+    else if(i % 3 == 0){
+        console.log("Red");
+    }
+    else if(i % 5 == 0){
+        console.log("Yellow");
+    }
+    else{
+        console.log(i);
+    }
+
+}
